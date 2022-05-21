@@ -18,9 +18,9 @@ active_beat = 0
 
 # sounds
 '''
-hi_hat = mixer.Sound('sounds\kit2\hi_hat.wav')
-snare = mixer.Sound('sounds\kit2\snare.wav')
-kick = mixer.Sound('sounds\kit2\kick.wav')
+hi_hat = mixer.Sound('sounds/kit2/hi_hat.wav')
+snare = mixer.Sound('sounds/kit2/snare.wav')
+kick = mixer.Sound('sounds/kit2/kick.wav')
 crash = mixer.Sound('sounds/kit2/crash.wav')
 clap = mixer.Sound('sounds/kit2/clap.wav')
 tom = mixer.Sound("sounds/kit2/tom.wav")
