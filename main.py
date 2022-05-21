@@ -18,19 +18,19 @@ active_beat = 0
 
 # sounds
 '''
-hi_hat = mixer.Sound('sounds\kit2\hi hat.wav')
+hi_hat = mixer.Sound('sounds\kit2\hi_hat.wav')
 snare = mixer.Sound('sounds\kit2\snare.wav')
 kick = mixer.Sound('sounds\kit2\kick.wav')
-crash = mixer.Sound('sounds\kit2\crash.wav')
-clap = mixer.Sound('sounds\kit2\clap.wav')
-tom = mixer.Sound("sounds\kit2\\tom.wav")
+crash = mixer.Sound('sounds/kit2/crash.wav')
+clap = mixer.Sound('sounds/kit2/clap.wav')
+tom = mixer.Sound("sounds/kit2/tom.wav")
 '''
-hi_hat = mixer.Sound('sounds\hi hat.wav')
-snare = mixer.Sound('sounds\snare.wav')
-kick = mixer.Sound('sounds\kick.wav')
-crash = mixer.Sound('sounds\crash.wav')
-clap = mixer.Sound('sounds\clap.wav')
-tom = mixer.Sound("sounds\\tom.wav")
+hi_hat = mixer.Sound('sounds/hi_hat.wav')
+snare = mixer.Sound('sounds/snare.wav')
+kick = mixer.Sound('sounds/kick.wav')
+crash = mixer.Sound('sounds/crash.wav')
+clap = mixer.Sound('sounds/clap.wav')
+tom = mixer.Sound("sounds/tom.wav")
 
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 pygame.display.set_caption('The Beat Maker')
